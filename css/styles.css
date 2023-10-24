@@ -121,6 +121,7 @@ body {
   font-size: 1.6rem;
   line-height: 1.5;
   height: 300vh;
+  background-color: var(--eerie-black);
 }
 
 :focus-visible {
@@ -158,6 +159,53 @@ body {
 }
 
 /* Header */
+.navbar,
+.header .btn {
+  display: none;
+}
 
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 15px;
+  padding-inline-start: 40px;
+  z-index: 4;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.nav-toggle-icon {
+  width: 30px;
+  height: 2px;
+  background-color: var(--white);
+  transition: var(--transition);
+}
+
+.nav-toggle-icon:not(:last-child){
+  margin-block-end: 7px;
+}
+
+.nav-toggle-btn_.icon-2 {
+  opacity: 0;
+  transform: translateX(-10px);
+}
+
+.nav-toggle-btn.active .icon-1 {
+  transform: rotate(45deg) translate(8px, 8px);
+}
+
+.nav-toggle-btn.active .icon-3 {
+  transform: rotate(-45deg) translate(4px, -4px);
+}
 
 /* Hero */
