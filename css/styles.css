@@ -156,6 +156,35 @@ body {
   overflow: hidden;
 }
 
+.has-bg-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+.section-subtitle {
+  max-width: max-content;
+  font-family: var(--ff-chakra-petch);
+  font-size: var(--fs-5);
+  font-weight: var(--fw-600);
+  text-transform: uppercase;
+  margin-block-end: 12px;
+  margin-inline: auto;
+}
+
+.section-subtitle::before {
+  content: "";
+  display: inline-block;
+  height: 15px;
+  width: 30px;
+  margin-block-end: -2px;
+}
+
+.section-subtitle\:dark {
+  color: var(--white);
+}
+
+
 /* Header */
 
 .header .btn {
@@ -240,4 +269,6 @@ body {
   background-color: var(--white);
   color: var(--international-orange-engineering);
 }
+
+
 /* Hero */
