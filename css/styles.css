@@ -120,8 +120,6 @@ body {
   color: var(--sonic-silver);
   font-size: 1.6rem;
   line-height: 1.5;
-  height: 300vh;
-  background-color: var(--eerie-black);
 }
 
 :focus-visible {
