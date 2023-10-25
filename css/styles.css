@@ -183,21 +183,98 @@ body {
   background-position: center;
 }
 
-.section-subtitle\:dark {
+.section-subtitle.\:dark {
   color: var(--white);
 }
 
-.section-subtitle\:dark::before {
-  background-image: url('img/text-bars-light.png');
+.section-subtitle.\:dark::before {
+  background-image: url("img/text-bars-light.png");
 }
 
-.section-subtitle\:light {
+.section-subtitle.\:light {
   color: var(--international-orange-engineering);
 }
 
-.section-subtitle\:light::before {
-  background-image: url('img/text-bars-dark.png');
+.section-subtitle.\:light::before {
+  background-image: url("img/text-bars-dark.png");
 }
+
+.section-title {
+  text-align: center;
+}
+
+.h1,
+.h2,
+.h3,
+.display-1 {
+  font-family: var(--ff-chakra-petch);
+  font-weight: var(--fw-700);
+  text-transform: uppercase;
+}
+
+.display-1 {
+  font-size: var(--fs-1);
+}
+
+.h1 {
+  color: var(--white);
+  font-size: var(--fs-1);
+  line-height: 1.1;
+  letter-spacing: 1px;
+}
+
+.h2,
+.h3 {
+  color: var(--eerie-black);
+  font-weight: var(--fw-600);
+  line-height: 1.2;
+}
+
+.h2 {
+  font-size: var(--fs-3);
+}
+
+.h3 {
+  font-size: var(--fs-4);
+}
+
+.btn {
+  background-color: var(--international-orange-engineering);
+  color: var(--white);
+  max-width: max-content;
+  font-family: var(--ff-chakra-petch);
+  font-weight: var(--fw-600);
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  border: 1px solid transparent;
+  border-radius: var(--radius-pill);
+  transition: var(--transition);
+  will-change: transform;
+}
+
+.btn:is(:hover, :focus-visible) {
+  transform: translateY(-5px);
+  background-color: var(--oxford-blue-3);
+  border-color: var(--white);
+}
+
+.move-anim {
+  animation: moving 2s ease-in-out infinite alternate;
+}
+
+@keyframes moving {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
+
+
 
 
 /* Header */
@@ -286,4 +363,42 @@ body {
 }
 
 
+
 /* Hero */
+.hero {
+  position: relative;
+  padding-block-start: calc(var(--section-padding) + 70px);
+  text-align: center;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.hero .container {
+  display: grid;
+  gap: 30px;
+}
+
+.hero .section-subtitle {
+  text-transform: unset;
+}
+
+.hero .section-text {
+  color: var(--white);
+  margin-block: 14px 18px;
+}
+
+.hero .btn {
+  margin-inline: auto;
+}
+
+.hero-banner {
+  aspect-ratio: var(--width) / var(--height);
+}
+
+.hero-banner img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 90%;
+  z-index: -1;
+}
