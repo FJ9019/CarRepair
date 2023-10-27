@@ -779,5 +779,25 @@ body {
     min-width: calc(50% - 15%);
    }
 
+  
    
+  /**
+   * Footer
+   */
+   
+   .footer-top {
+    position: relative;
+    overflow: hidden;
+   }
+
+   .footer-top .container {
+    grid-template-columns: 1fr 1fr;
+   }
+
+   .footer .shape-3 {
+    display: block;
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+   }
  }
