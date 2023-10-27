@@ -975,4 +975,59 @@ body {
   .card-text {
     font-size: 1.8rem;
   }
+
+
+
+
+  /**
+  * Header
+  */
+
+  .nav-toggle-btn {
+    display: none;
+  }
+
+  .header .container {
+    gap: 30px;
+  }
+
+  .navbar,
+  .navbar.active {
+    all: unset;
+    display: block;
+    margin-inline-start: auto;
+  }
+
+  .navbar-list {
+    display: flex;
+  }
+
+  .navbar-link {
+    position: relative;
+    font-size: unset;
+  }
+
+  .navbar-link:is(:hover, :focus-visible) {
+    background: none;
+    color: var(--white);
+  }
+
+  .navbar-link::after {
+    content: url('img/nav-before-img.png');
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+
+  .navbar-link:is(:hover, :focus-visible)::after {
+    opacity: 1;
+  }
+
+  .header .btn {
+    display: flex;
+    padding: 12px 24px;
+    font-size: var(--fs-5);
+  }
 }
