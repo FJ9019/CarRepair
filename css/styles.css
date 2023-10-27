@@ -800,4 +800,56 @@ body {
     bottom: -30px;
     right: 0;
    }
+
  }
+
+
+
+ /**
+  * Responsive for large than 768px screen
+  */
+
+@media (min-width: 768px) {
+
+ /**
+  * Custom Property
+  */
+  
+  :root {
+    
+    /**
+    * Typography
+    */
+
+    --fs-1: 4rem;
+    --fs-2: 5rem;
+    --fs-3: 3.4rem;
+
+  }
+
+
+
+
+  /**
+  * Reused Style
+  */
+
+  .container,
+  .hero-content {
+    max-width: 720px;
+  }
+
+  .btn {
+    padding: 16px 32px;
+  }
+
+  .section-subtitle {
+    --fs-5: 1.8rem;
+  }
+
+  .section-title:not(.h1) {
+    max-width: 500px;
+    margin-inline: auto;
+  }
+  
+}  
