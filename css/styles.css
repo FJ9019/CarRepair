@@ -770,5 +770,14 @@ body {
 
 
 
+
+  /**
+   * Work
+   */
+   
+   .scrollbar-item {
+    min-width: calc(50% - 15%);
+   }
+
    
  }
