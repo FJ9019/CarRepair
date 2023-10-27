@@ -680,4 +680,29 @@ body {
  * Responsive for large than 575px screen
  */
 
- 
+ @media (min-width: 575px) {
+
+  /**
+   * Custom Property
+   */
+
+   :root {
+
+    /**
+    * Typography
+    */
+
+    --fs-2: 4rem;
+    --fs-3: 2.8rem;
+    --fs-4: 2rem;
+
+   }
+
+
+
+   /**
+    * Reused Style
+    */
+
+    
+ }
