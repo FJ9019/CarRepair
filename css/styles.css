@@ -1030,4 +1030,32 @@ body {
     padding: 12px 24px;
     font-size: var(--fs-5);
   }
+
+
+
+  /**
+  * Hero
+  */
+
+  .hero {
+    text-align: left;
+    padding-block-end: 80px;
+  }
+
+  .hero .container {
+    max-width: 960px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .hero :is(.section-subtitle, .btn) {
+    margin-inline: 0;
+  }
+
+  .hero .section-title {
+    text-align: left;
+  }
+
+  .hero-banner img {
+    width: 55%;
+  }
 }
