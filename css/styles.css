@@ -912,5 +912,20 @@ body {
   .about .section-text {
     max-width: 520px;
   }
+
+
+
+
+  /**
+  * Footer
+  */
+
+  .footer-top .container {
+    grid-template-columns: 1fr 0.9fr 0.9fr;
+  }
+
+  .copyright {
+    --fs-6: 1.4rem;
+  }
   
 }  
