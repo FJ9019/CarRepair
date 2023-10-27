@@ -704,5 +704,54 @@ body {
     * Reused Style
     */
 
-    
+  .container {
+    max-width: 540px;
+    width: 100%;
+    margin-inline: auto;
+  }
+
+  .section-subtitle {
+    --fs-5: 1.6rem;
+  }
+
+  .h2 {
+    font-weight: var(--fw-700);
+  }
+
+
+
+  /**
+   * Hero
+   */
+  
+   .hero .container {
+    max-width: unset;
+   }
+
+   .hero-content {
+    max-width: 520px;
+    margin-inline: auto;
+   }
+
+   .hero .section-text {
+    font-size: 1.8rem;
+   }
+
+
+   /**
+   * Service
+   */
+
+   .service .section-title {
+    margin-block-end: 30px;
+   }
+
+   .service-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-block-end: 40px;
+   }
+
+
  }
