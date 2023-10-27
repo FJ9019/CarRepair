@@ -754,4 +754,21 @@ body {
    }
 
 
+  
+   /**
+   * About
+   */
+
+   .about-list {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+   }
+
+   .about-item {
+    padding-block: 20px;
+   }
+
+
+
+   
  }
