@@ -892,4 +892,25 @@ body {
     width: 150%;
     transform-origin: top;
   }
+
+
+
+
+  /**
+  * About
+  */
+
+  .about-banner {
+    max-width: max-content;
+  }
+
+  .about-banner,
+  .about .section-text {
+    margin-inline: auto;
+  }
+
+  .about .section-text {
+    max-width: 520px;
+  }
+  
 }  
