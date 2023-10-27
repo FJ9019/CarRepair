@@ -851,5 +851,19 @@ body {
     max-width: 500px;
     margin-inline: auto;
   }
-  
+
+
+
+
+  /**
+  * Hero
+  */
+
+  .hero {
+    --section-padding: 120px;
+  }
+
+  .hero .section-text {
+    margin-block-end: 30px;
+  }
 }  
