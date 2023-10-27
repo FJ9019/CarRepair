@@ -927,5 +927,52 @@ body {
   .copyright {
     --fs-6: 1.4rem;
   }
-  
+
 }  
+
+
+
+
+/**
+* Responsive for large than 992px screen
+*/
+
+@media (min-width: 992px) {
+
+  /**
+  * Custom Property
+  */
+
+  :root {
+
+    /**
+    * Typography
+    */
+
+    --fs-2: 4.4rem;
+    --fs-3: 3.8rem;
+    --fs-4: 2.2rem;
+
+    /**
+    * Spacing
+    */
+
+    --section-padding: 100px;
+
+  }
+
+
+
+  /**
+  * Reused Style
+  */
+
+  .container {
+    max-width: 960px;
+  }
+
+  .section-text,
+  .card-text {
+    font-size: 1.8rem;
+  }
+}
