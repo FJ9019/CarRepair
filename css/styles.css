@@ -188,7 +188,7 @@ body {
 }
 
 .section-subtitle.\:dark::before {
-  background-image: url("img/text-bars-light.png");
+  background-image: url("../img/text-bars-light.png");
 }
 
 .section-subtitle.\:light {
@@ -196,7 +196,7 @@ body {
 }
 
 .section-subtitle.\:light::before {
-  background-image: url("img/text-bars-dark.png");
+  background-image: url("../img/text-bars-dark.png");
 }
 
 .section-title {
@@ -1013,7 +1013,7 @@ body {
   }
 
   .navbar-link::after {
-    content: url('img/nav-before-img.png');
+    content: url('../img/nav-before-img.png');
     position: absolute;
     bottom: -8px;
     left: 50%;
@@ -1089,5 +1089,62 @@ body {
     margin-block-start: -30%;
     width: 210%;
   }
+
+
+
+
+  /**
+  * About  
+  */
+
+  .about {
+    position: relative;
+    z-index: 1;
+  }
+
+  .about,
+  .about .section-title {
+    text-align: left;
+  }
+
+  .about .container {
+    grid-template-columns: 1fr 0.75fr;
+    gap: 30px;
+  }
+
+  .about .section-subtitle {
+    margin-inline: 0;
+  }
+
+  .about-banner,
+  .about-banner .w-100 {
+    margin-inline: auto 0;
+  }
+
+  .about-banner .w-100 {
+    width: 40%;
+  }
+
+  .about-item {
+    text-align: center;
+  }
+
+  .about::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-image: url(../img/about-abs-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    z-index: -1;
+  }
+
+
+
+
   
 }
