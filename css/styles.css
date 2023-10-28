@@ -1409,4 +1409,25 @@ body {
   .hero-banner img {
     width: 75%;
   }
+
+
+
+
+  /**
+  * About
+  */
+
+  .about::before {
+    width: 55%;
+  }
+
+  .about-banner .w-100 {
+    width: 50%;
+  }
+
+
+
+
+
+  
 }
