@@ -374,7 +374,7 @@ body {
   margin-block-end: 7px;
 }
 
-.nav-toggle-btn_.icon-2 {
+.nav-toggle-btn.active .icon-2 {
   opacity: 0;
   transform: translateX(-10px);
 }
