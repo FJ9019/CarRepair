@@ -1429,5 +1429,11 @@ body {
 
 
 
-  
+  /**
+  * Footer
+  */
+
+  .footer-top .container {
+    padding-inline-start: 20%;
+  }
 }
