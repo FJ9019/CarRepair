@@ -1058,4 +1058,36 @@ body {
   .hero-banner img {
     width: 55%;
   }
+
+
+
+
+  /**
+  * Service
+  */
+
+  .service-card .card-text {
+    padding-inline: 25px;
+    line-height: 1.45;
+    margin-block-end: 15px;
+  }
+
+  .service-list li:ntn-child(-2n+3) {
+    margin-block-start: 90px;
+  }
+
+  .service-list li:ntn-child(4) {
+    margin-inline-end: 60px;
+  }
+
+  .service-list li:ntn-child(6) {
+    margin-inline-start: 60px;
+  }
+
+  .service-banner img {
+    left: -55%;
+    margin-block-start: -30%;
+    width: 210%;
+  }
+  
 }
