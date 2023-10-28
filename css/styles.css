@@ -1220,4 +1220,28 @@ body {
     font-size: unset;
     padding-block: 15px;
   }
+
+
+
+
+  /**
+  * Hero
+  */
+
+  .hero {
+    padding-block: 250px 180px;
+  }
+
+  .hero .container {
+    grid-template-columns: 1fr 0.9fr;
+  }
+
+  .hero .section-text {
+    font-size: 2rem;
+    padding-inline-end: 120px;
+  }
+
+  .hero-banner img {
+    width: 70%;
+  }
 }
