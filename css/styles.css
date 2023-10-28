@@ -1136,7 +1136,7 @@ body {
     left: 0;
     width: 50%;
     height: 100%;
-    background-image: url(../img/about-abs-banner.png);
+    background-image: url('../img/about-abs-banner.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
