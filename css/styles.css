@@ -1146,5 +1146,15 @@ body {
 
 
 
-  
+  /**
+  * Work
+  */
+
+  .has-scrollbar {
+    overflow-x: visible;
+  }
+
+  .scrollbar-item {
+    min-width: calc(33.33% - 20px);
+  }
 }
