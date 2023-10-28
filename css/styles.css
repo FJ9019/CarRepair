@@ -1389,4 +1389,24 @@ body {
   .header .btn {
     padding: 18px 36px;
   }
+
+
+
+
+
+  /**
+  * Hero 
+  */
+
+  .hero {
+    padding-block: 280px;
+  }
+
+  .hero .section-text {
+    padding-inline-end: 90px;
+  }
+
+  .hero-banner img {
+    width: 75%;
+  }
 }
